@@ -20,7 +20,8 @@ public class exercicio12 {
         int terceiro = (valor/10) % 10;
         int quarto = (valor % 10);
 
-        if ((primeiro == 8 || primeiro == 5) && (quarto == 5 || quarto == 1)) {
+        if ((primeiro == 8 || primeiro == 5) && (quarto == 5 || quarto == 1) && (quarto == 5 && segundo + terceiro == 3) ||
+                 (quarto == 1 && segundo + terceiro == 0)) {
             System.out.print("Senha válida!!!");
         } else {
             System.out.print("Senha inválida!!!");
